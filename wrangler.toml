@@ -1,0 +1,13 @@
+name = "check-health-db"
+main = "src/index.js"
+compatibility_date = "2024-12-08"
+workers_dev = true
+preview_urls = false
+
+[observability]
+enabled = false
+
+  [observability.logs]
+  enabled = true
+  head_sampling_rate = 1
+  invocation_logs = true

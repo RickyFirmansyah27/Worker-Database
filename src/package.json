@@ -1,0 +1,12 @@
+{
+  "name": "neon-template",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.6.0"
+  }
+}
