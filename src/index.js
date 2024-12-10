@@ -28,7 +28,7 @@ const basic_default = {
         JSON.stringify({
           status: "success",
           statusCode: 200,
-          message: "[Neon DB] | Database connection failed",
+          message: "[Neon DB] | Database connection established",
           uptime: uptimeFormatted,  // Tambahkan uptime dalam format dd:hh:mm:ss
         }),
         {
