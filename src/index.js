@@ -1,5 +1,5 @@
 // src/templates/basic/index.js
-import { Client } from "@neondatabase/serverless";
+import { Client } from "./@neondatabase/serverless";
 
 // Simpan waktu awal worker pertama kali dijalankan
 const startTime = Date.now();
