@@ -17,6 +17,7 @@ const basic_default = {
 
     try {
       await client.connect();
+      const version = await client.query('SELECT version()');
 
       return new Response(
         JSON.stringify({
@@ -24,6 +25,7 @@ const basic_default = {
           statusCode: 200,
           message: "[Neon DB] | Database connection established",
           uptime: uptimeFormatted,
+          version: version.rows[0].version,
         }),
         {
           status: 200,
